@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Export to Pdf Webscript</shortname>
+  <description>Sample Export to pdf webscript</description>
+  <url>/export/data/pdf/post</url>
+  <format default="">argument</format>
+  <authentication>user</authentication>
+  <transaction allow="readonly">required</transaction>
+</webscript>

@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Export to CSV Webscript</shortname>
+  <description>Sample Export to csv webscript</description>
+  <url>/export/data/csv/post</url>
+  <format default="csv">argument</format>
+  <authentication>user</authentication>
+  <transaction allow="readonly">required</transaction>
+</webscript>

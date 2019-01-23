@@ -1,0 +1,31 @@
+2019-01-21 13:24:40,481 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Found 2 module package(s)
+2019-01-21 13:24:40,495 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+
+2019-01-21 13:24:41,526 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-21 13:24:41,533 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-21 13:24:41,535 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-21 13:24:41,539 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-21 13:24:50,177 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 393 Web Scripts (+0 failed), 411 URLs
+2019-01-21 13:24:50,178 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2019-01-21 13:24:50,178 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2019-01-21 13:24:50,584 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 9012.8545ms)
+2019-01-21 13:24:50,587 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-21 13:24:50,588 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-21 14:24:07,301 INFO  [org.alfresco.web.site.EditionInterceptor] [http-bio-8080-exec-2] Unable to retrieve License information from Alfresco: 404
+2019-01-21 14:41:38,942 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Found 2 module package(s)
+2019-01-21 14:41:38,984 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+
+2019-01-21 14:41:39,996 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-21 14:41:40,014 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-21 14:41:40,015 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-21 14:41:40,016 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-21 14:41:49,701 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/site-webscripts/org/alfresco/components/data-lists/datagrid.get.desc.xml due to error: 00210000 Web Script document org/alfresco/components/data-lists/datagrid.get.desc.xml is attempting to define the url '/components/data-lists/datagrid:GET' already defined by alvex/datagrid/documents-register-datagrid.get.desc.xml
+2019-01-21 14:41:49,702 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/site-webscripts/org/alfresco/components/data-lists/toolbar.get.desc.xml due to error: 00210001 Web Script document org/alfresco/components/data-lists/toolbar.get.desc.xml is attempting to define the url '/components/data-lists/toolbar:GET' already defined by alvex/datagrid/documents-register-toolbar.get.desc.xml
+2019-01-21 14:41:49,702 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 396 Web Scripts (+2 failed), 412 URLs
+2019-01-21 14:41:49,702 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2019-01-21 14:41:49,703 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2019-01-21 14:41:49,925 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 9878.785ms)
+2019-01-21 14:41:49,930 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-21 14:41:49,931 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js

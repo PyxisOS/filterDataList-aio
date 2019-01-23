@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="smf:smartFolder">
+    <description>Smart Folder Model</description>
+    <author>Alfresco</author>
+    <version>1.0</version>
+    <imports>
+        <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+        <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+    </imports>
+    <namespaces>
+        <namespace uri="http://www.alfresco.org/model/content/smartfolder/1.0" prefix="smf"/>
+    </namespaces>
+    <data-types/>
+    <constraints>
+        <constraint name="smf:system-template-locations-constraint" type="REGISTERED">
+            <parameter name="registeredName">
+                <value>systemTemplateLocations</value>
+            </parameter>
+        </constraint>
+    </constraints>
+    <types>
+        <type name="smf:smartFolderTemplate">
+            <title>Smart Folder Template</title>
+            <parent>cm:content</parent>
+            <properties/>
+            <associations/>
+            <overrides/>
+            <mandatory-aspects/>
+        </type>
+    </types>
+    <aspects>
+        <aspect name="smf:smartFolder">
+            <title>Smart Folder</title>
+            <description>A smart container node</description>
+            <properties/>
+            <associations/>
+            <overrides/>
+            <mandatory-aspects/>
+        </aspect>
+        <aspect name="smf:smartFolderChild">
+            <title>Smart Folder Child</title>
+            <properties/>
+            <associations/>
+            <overrides/>
+            <mandatory-aspects/>
+        </aspect>
+        <aspect name="smf:virtualization">
+            <title>Virtualization</title>
+            <properties/>
+            <associations/>
+            <overrides/>
+            <mandatory-aspects/>
+        </aspect>
+        <aspect name="smf:customConfigSmartFolder">
+            <title>Custom Smart Folder</title>
+            <parent>smf:virtualization</parent>
+            <properties/>
+            <associations>
+                <association name="smf:custom-template-association">
+                    <title>Smart Folder Template</title>
+                    <source>
+                        <mandatory>false</mandatory>
+                        <many>true</many>
+                    </source>
+                    <target>
+                        <class>cm:content</class>
+                        <mandatory enforced="false">false</mandatory>
+                        <many>false</many>
+                    </target>
+                </association>
+            </associations>
+            <overrides/>
+            <mandatory-aspects/>
+        </aspect>
+        <aspect name="smf:systemConfigSmartFolder">
+            <title>System Smart Folder</title>
+            <parent>smf:virtualization</parent>
+            <properties>
+                <property name="smf:system-template-location">
+                    <title>Smart Folder Template</title>
+                    <type>d:text</type>
+                    <mandatory>true</mandatory>
+                    <index enabled="true"/>
+                    <constraints>
+                        <constraint name="smf:smartFolder_systemConfigSmartFolder_system-template-location_anon_0" ref="smf:system-template-locations-constraint"/>
+                    </constraints>
+                </property>
+            </properties>
+            <associations/>
+            <overrides/>
+            <mandatory-aspects/>
+        </aspect>
+    </aspects>
+</model>

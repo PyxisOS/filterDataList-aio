@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>filterDataList-aio-share-jar</artifactId>
+	<name>Alfresco Share JAR Module</name>
+	<packaging>jar</packaging>
+	<description>Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3</description>
+
+	<parent>
+		<groupId>pyxisos</groupId>
+		<artifactId>filterDataList-aio</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+	</properties>
+
+	<!-- Following dependencies are needed for compiling Java code in src/main/java; 
+		<scope>provided</scope> is inherited for each of the following; for more 
+		info, please refer to alfresco-platform-distribution POM -->
+	<dependencies>
+		<dependency>
+			<groupId>${alfresco.groupId}</groupId>
+			<artifactId>share</artifactId>
+			<classifier>classes</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>org.alfresco.surf</groupId>
+			<artifactId>spring-surf-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alvexcore.share</groupId>
+			<artifactId>datagrid</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<classifier>installable</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alvexcore.share</groupId>
+			<artifactId>masterdata</artifactId>
+			<version>1.51-SNAPSHOT</version>
+			<classifier>installable</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alvexcore.share</groupId>
+			<artifactId>utils</artifactId>
+			<version>1.19-SNAPSHOT</version>
+			<classifier>installable</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>org.alfresco</groupId>
+			<artifactId>aikau</artifactId>
+			<version>1.0.101.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.alfresco</groupId>
+			<artifactId>aikau-forms-runtime-support</artifactId>
+			<version>1.0.101.3</version>
+		</dependency>
+
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>alvex-public</id>
+			<url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
+		</repository>
+	</repositories>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

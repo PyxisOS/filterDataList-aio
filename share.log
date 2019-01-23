@@ -1,0 +1,65 @@
+2019-01-23 09:35:55,299 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Found 2 module package(s)
+2019-01-23 09:35:55,359 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] fme Javascript Console Share Extension, 0.6.1604291213, Adminstration console module to execute arbitrary javascript code.
+Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+
+2019-01-23 09:35:56,186 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-23 09:35:56,259 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-23 09:35:56,261 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-23 09:35:56,271 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-23 09:36:22,096 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/site-webscripts/org/alfresco/components/data-lists/datagrid.get.desc.xml due to error: 00230000 Web Script document org/alfresco/components/data-lists/datagrid.get.desc.xml is attempting to define the url '/components/data-lists/datagrid:GET' already defined by alvex/datagrid/documents-register-datagrid.get.desc.xml
+2019-01-23 09:36:22,109 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/site-webscripts/org/alfresco/components/data-lists/toolbar.get.desc.xml due to error: 00230001 Web Script document org/alfresco/components/data-lists/toolbar.get.desc.xml is attempting to define the url '/components/data-lists/toolbar:GET' already defined by alvex/datagrid/documents-register-toolbar.get.desc.xml
+2019-01-23 09:36:22,109 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 398 Web Scripts (+2 failed), 414 URLs
+2019-01-23 09:36:22,109 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2019-01-23 09:36:22,109 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2019-01-23 09:36:22,393 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 26087.6ms)
+2019-01-23 09:36:22,396 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-23 09:36:22,397 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-23 09:53:09,401 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Found 2 module package(s)
+2019-01-23 09:53:09,483 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] fme Javascript Console Share Extension, 0.6.1604291213, Adminstration console module to execute arbitrary javascript code.
+Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+
+2019-01-23 09:53:10,656 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-23 09:53:10,664 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-23 09:53:10,664 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-23 09:53:10,667 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-23 09:53:22,789 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/site-webscripts/org/alfresco/components/data-lists/datagrid.get.desc.xml due to error: 00230000 Web Script document org/alfresco/components/data-lists/datagrid.get.desc.xml is attempting to define the url '/components/data-lists/datagrid:GET' already defined by alvex/datagrid/documents-register-datagrid.get.desc.xml
+2019-01-23 09:53:22,812 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/site-webscripts/org/alfresco/components/data-lists/toolbar.get.desc.xml due to error: 00230001 Web Script document org/alfresco/components/data-lists/toolbar.get.desc.xml is attempting to define the url '/components/data-lists/toolbar:GET' already defined by alvex/datagrid/documents-register-toolbar.get.desc.xml
+2019-01-23 09:53:22,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 397 Web Scripts (+2 failed), 413 URLs
+2019-01-23 09:53:22,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed) 
+2019-01-23 09:53:22,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed) 
+2019-01-23 09:53:23,051 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 12357.149ms)
+2019-01-23 09:53:23,057 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+2019-01-23 09:53:23,058 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+2019-01-23 09:55:36,092 INFO  [org.alfresco.web.site.EditionInterceptor] [http-bio-8080-exec-9] Successfully retrieved license information from Alfresco.
+2019-01-23 09:58:16,986 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-bio-8080-exec-7] Successfully retrieved IMAP server status from Alfresco: disabled
+2019-01-23 10:20:38,127 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] Found 2 module package(s)
+2019-01-23 10:20:38,174 INFO  [org.alfresco.web.config.packaging.ModulePackageManager] [localhost-startStop-1] fme Javascript Console Share Extension, 0.6.1604291213, Adminstration console module to execute arbitrary javascript code.
+Alfresco Share JAR Module, 1.0-SNAPSHOT, Sample Share JAR Module (to be included in the share.war) - part of AIO - SDK 3
+
+2019-01-23 10:20:38,541 WARN  [org.springframework.web.context.support.XmlWebApplicationContext] [localhost-startStop-1] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'alvex-masterdata' defined in URL [jar:file:/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/target/tomcat/webapps/filterDataList-aio-share/WEB-INF/lib/masterdata-1.51-20170613.154414-5-installable.jar!/alfresco/web-extension/alvex-masterdata-context.xml]: Could not resolve parent bean definition 'alvex-extension'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'alvex-extension' is defined
+2019-01-23 10:20:38,543 ERROR [org.springframework.web.context.ContextLoader] [localhost-startStop-1] Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'alvex-masterdata' defined in URL [jar:file:/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/target/tomcat/webapps/filterDataList-aio-share/WEB-INF/lib/masterdata-1.51-20170613.154414-5-installable.jar!/alfresco/web-extension/alvex-masterdata-context.xml]: Could not resolve parent bean definition 'alvex-extension'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'alvex-extension' is defined
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedBeanDefinition(AbstractBeanFactory.java:1180)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedBeanDefinition(AbstractBeanFactory.java:1125)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1111)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:615)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'alvex-extension' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1111)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedBeanDefinition(AbstractBeanFactory.java:892)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedBeanDefinition(AbstractBeanFactory.java:1166)
+	... 17 more

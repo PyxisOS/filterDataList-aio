@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="acmew:workflowModel">
+    <description>Sample Workflow Model</description>
+    <author>My Name</author>
+    <version>1.0</version>
+    <imports>
+        <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+        <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+        <import uri="http://www.alfresco.org/model/bpm/1.0" prefix="bpm"/>
+    </imports>
+    <namespaces>
+        <namespace uri="http://www.acme.org/model/workflow/1.0" prefix="acmew"/>
+    </namespaces>
+    <data-types/>
+    <constraints/>
+    <types/>
+    <aspects/>
+</model>
