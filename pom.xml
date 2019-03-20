@@ -363,34 +363,21 @@
 							<artifactId>itextpdf</artifactId>
 							<version>5.0.6</version>
 						</moduleDependency>
-
+						
+						<!-- <moduleDependency>
+							<groupId>gruppoSamed</groupId>
+							<artifactId>filterDataList-repo</artifactId>
+							<version>1.0-SNAPSHOT</version>
+							<type>amp</type>
+						</moduleDependency> -->
+						
 						<moduleDependency>
 							<groupId>com.alvexcore.repo</groupId>
 							<artifactId>datagrid</artifactId>
 							<version>1.0-SNAPSHOT</version>
-							<classifier>installable</classifier>
+							<type>amp</type>
 						</moduleDependency>
 
-						<moduleDependency>
-							<groupId>com.alvexcore.repo</groupId>
-							<artifactId>masterdata</artifactId>
-							<version>1.51-SNAPSHOT</version>
-							<classifier>installable</classifier>
-						</moduleDependency>
-
-						<moduleDependency>
-							<groupId>com.alvexcore.repo</groupId>
-							<artifactId>utils</artifactId>
-							<version>1.19-SNAPSHOT</version>
-							<classifier>installable</classifier>
-						</moduleDependency>
-
-
-						<moduleDependency>
-							<groupId>org.mapdb</groupId>
-							<artifactId>mapdb</artifactId>
-							<version>3.0.4</version>
-						</moduleDependency>
 
 						<!-- Bring in the integration tests -->
 						<moduleDependency>
@@ -399,7 +386,6 @@
 							<version>${project.version}</version>
 							<classifier>tests</classifier>
 						</moduleDependency>
-
 
 					</platformModules>
 
@@ -419,39 +405,21 @@
 							<version>0.6</version>
 							<type>amp</type>
 						</moduleDependency>
-
+						
 						<moduleDependency>
 							<groupId>com.alvexcore.share</groupId>
 							<artifactId>datagrid</artifactId>
 							<version>1.0-SNAPSHOT</version>
-							<classifier>installable</classifier>
+							<type>amp</type>
 						</moduleDependency>
-
-						<moduleDependency>
-							<groupId>com.alvexcore.share</groupId>
-							<artifactId>masterdata</artifactId>
-							<version>1.51-SNAPSHOT</version>
-							<classifier>installable</classifier>
-						</moduleDependency>
-
-						<moduleDependency>
-							<groupId>com.alvexcore.share</groupId>
-							<artifactId>utils</artifactId>
-							<version>1.19-SNAPSHOT</version>
-							<classifier>installable</classifier>
-						</moduleDependency>
-
-						<moduleDependency>
-							<groupId>org.alfresco</groupId>
-							<artifactId>aikau</artifactId>
-							<version>1.0.101.3</version>
-						</moduleDependency>
-						<moduleDependency>
-							<groupId>org.alfresco</groupId>
-							<artifactId>aikau-forms-runtime-support</artifactId>
-							<version>1.0.101.3</version>
-						</moduleDependency>
-
+						
+						<!-- <moduleDependency>
+							<groupId>gruppoSamed</groupId>
+							<artifactId>filterDataList-share</artifactId>
+							<version>1.0-SNAPSHOT</version>
+							<type>amp</type>
+						</moduleDependency>  -->
+					
 					</shareModules>
 				</configuration>
 			</plugin>
@@ -494,11 +462,11 @@
 
 	<!-- Alfresco Maven Repositories -->
 	<repositories>
-		<repository>
+		<!--  <repository>
 			<id>alvex-public</id>
 			<url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
-		</repository>
-		
+		</repository> -->
+
 		<repository>
 			<id>alfresco-public</id>
 			<url>https://artifacts.alfresco.com/nexus/content/groups/public</url>

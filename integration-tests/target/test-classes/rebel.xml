@@ -6,9 +6,9 @@
 -->
 <application generated-by="maven" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://update.zeroturnaround.com/jrebel/rebel-2_1.xsd">
 	<classpath fallback="all">
-		<dir name="/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/integration-tests/target/classes">
+		<dir name="/home/utente/ALFRESCO-CODE/ALFRESCO-SDK3-PACKAGES/PACKAGES/filterDataList-aio/integration-tests/target/classes">
 		</dir>
-		<dir name="/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/integration-tests/target/test-classes">
+		<dir name="/home/utente/ALFRESCO-CODE/ALFRESCO-SDK3-PACKAGES/PACKAGES/filterDataList-aio/integration-tests/target/test-classes">
 		</dir>
 	</classpath>
 

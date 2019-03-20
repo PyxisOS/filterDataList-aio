@@ -30,41 +30,14 @@
 			<artifactId>itextpdf</artifactId>
 			<version>5.0.6</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.alvexcore.repo</groupId>
-			<artifactId>datagrid</artifactId>
-			<version>1.0-SNAPSHOT</version>
-			<classifier>installable</classifier>
-		</dependency>
-
-		<dependency>
-			<groupId>com.alvexcore.repo</groupId>
-			<artifactId>masterdata</artifactId>
-			<version>1.51-SNAPSHOT</version>
-			<classifier>installable</classifier>
-		</dependency>
-
-		<dependency>
-			<groupId>com.alvexcore.repo</groupId>
-			<artifactId>utils</artifactId>
-			<version>1.19-SNAPSHOT</version>
-			<classifier>installable</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.mapdb</groupId>
-			<artifactId>mapdb</artifactId>
-			<version>3.0.4</version>
-		</dependency>
-
-
+		
 	</dependencies>
 
 	<repositories>
-		<repository>
+		<!-- <repository>
 			<id>alvex-public</id>
 			<url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
-		</repository>
+		</repository>  -->
 	</repositories>
 
 	<build>

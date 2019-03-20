@@ -31,46 +31,14 @@
 			<groupId>org.alfresco.surf</groupId>
 			<artifactId>spring-surf-api</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>com.alvexcore.share</groupId>
-			<artifactId>datagrid</artifactId>
-			<version>1.0-SNAPSHOT</version>
-			<classifier>installable</classifier>
-		</dependency>
-
-		<dependency>
-			<groupId>com.alvexcore.share</groupId>
-			<artifactId>masterdata</artifactId>
-			<version>1.51-SNAPSHOT</version>
-			<classifier>installable</classifier>
-		</dependency>
-
-		<dependency>
-			<groupId>com.alvexcore.share</groupId>
-			<artifactId>utils</artifactId>
-			<version>1.19-SNAPSHOT</version>
-			<classifier>installable</classifier>
-		</dependency>
-
-		<dependency>
-			<groupId>org.alfresco</groupId>
-			<artifactId>aikau</artifactId>
-			<version>1.0.101.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.alfresco</groupId>
-			<artifactId>aikau-forms-runtime-support</artifactId>
-			<version>1.0.101.3</version>
-		</dependency>
-
+	
 	</dependencies>
 
 	<repositories>
-		<repository>
+		<!--  <repository>
 			<id>alvex-public</id>
 			<url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
-		</repository>
+		</repository>  -->
 	</repositories>
 	<build>
 		<plugins>
