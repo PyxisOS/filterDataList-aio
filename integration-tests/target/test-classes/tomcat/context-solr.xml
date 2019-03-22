@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context crossContext="true">
-    <Environment name="solr/home"        type="java.lang.String" value="/home/utente/ALFRESCO-CODE/ALFRESCO-SDK3-PACKAGES/PACKAGES/filterDataList-aio/alf_data_dev/solr" override="true"/>
-    <Environment name="solr/model/dir"   type="java.lang.String" value="/home/utente/ALFRESCO-CODE/ALFRESCO-SDK3-PACKAGES/PACKAGES/filterDataList-aio/alf_data_dev/solr/alfrescoModels" override="true"/>
-    <Environment name="solr/content/dir" type="java.lang.String" value="/home/utente/ALFRESCO-CODE/ALFRESCO-SDK3-PACKAGES/PACKAGES/filterDataList-aio/alf_data_dev/solr/index" override="true"/>
+    <Environment name="solr/home"        type="java.lang.String" value="/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/alf_data_dev/solr" override="true"/>
+    <Environment name="solr/model/dir"   type="java.lang.String" value="/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/alf_data_dev/solr/alfrescoModels" override="true"/>
+    <Environment name="solr/content/dir" type="java.lang.String" value="/Users/zarbano/my-packages/alfresco-packages/alfresco-sdk3/PACKAGES/filterDataList-aio/alf_data_dev/solr/index" override="true"/>
 
 </Context>

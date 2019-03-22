@@ -1,0 +1,12 @@
+
+.datalist-toolbar .csv-export span.first-child
+{
+   background: url(../images/csv-icon-16.png) no-repeat 12px 4px;
+   padding-left: 24px;
+}
+
+.datalist-toolbar .pdf-export span.first-child
+{
+   background: url(../images/pdf-icon-16.png) no-repeat 12px 4px;
+   padding-left: 24px;
+}
